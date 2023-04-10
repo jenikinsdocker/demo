@@ -8,7 +8,7 @@ public class JenikinsDockerIntegrationApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JenikinsDockerIntegrationApplication.class, args);
-		System.out.println("sysot commited hello");
+	
 	}
 
 }
