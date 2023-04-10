@@ -11,6 +11,7 @@
 	<groupId>com.docker.jenikin</groupId>
 	<artifactId>Jenikins-Docker-Integration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>Jenikins-Docker-Integration</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -50,6 +51,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>jenikins-docker-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
